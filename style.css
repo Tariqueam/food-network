@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   font-family: "Roboto", sans-serif;
+  color: rgb(94, 91, 91);
+  margin: 0;
 }
 /* navbar */
 
@@ -12,7 +14,7 @@ body {
 .navbar-items {
   display: flex;
   list-style: none;
-  margin: auto 25px auto 0;
+  margin: 20px 35px auto 0;
 }
 
 .navbar-items li {
@@ -29,18 +31,25 @@ nav li:hover {
 }
 /* top section  */
 h1 {
-  font-size: 50px;
+  font-size: 4rem;
 }
-.container {
+p {
+  font-size: 1.2rem;
+}
+.flex-container {
   display: flex;
-  margin: 40px 0 100px 0;
+  margin: 40px 0 50px 0;
 }
 .half-width {
   width: 50%;
   padding-left: 5%;
 }
+.half-width p {
+  width: 80%;
+}
 .half-width img {
   width: 80%;
+  border-radius: 20px;
 }
 .orange-color {
   color: orangered;
@@ -54,9 +63,63 @@ h1 {
   background-color: coral;
   background-image: linear-gradient(coral, tomato);
 }
+/* middle section  */
 .background {
   background-image: url(img/middle-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 500px;
+}
+h2 {
+  font-size: 2rem;
+}
+.card-intro {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.card {
+  width: 280px;
+  height: 600px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 20px;
+}
+.card:hover {
+  transform: scale(1.01);
+}
+.card-img img {
+  width: 100%;
+  border-radius: 15px;
+}
+.card-detail {
+  text-align: center;
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* social network */
+.social {
+  width: 80%;
+  margin: 8% auto;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 20px;
+}
+.social-media {
+  margin-left: 10%;
+  margin-right: 8%;
+}
+/* footer */
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 5rem;
+  margin: 0;
+}
+.orange {
+  color: orange;
 }
