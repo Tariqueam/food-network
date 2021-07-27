@@ -5,7 +5,6 @@ body {
   margin: 0;
 }
 /* navbar */
-
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -18,12 +17,13 @@ body {
 }
 
 .navbar-items li {
-  padding: 1rem;
+  padding: 1.2rem;
+  font-size: larger;
+  color: black;
 }
 
 .nav-link {
   text-decoration: none;
-  color: black;
 }
 
 nav li:hover {
@@ -81,7 +81,7 @@ h2 {
 }
 .card {
   width: 280px;
-  height: 600px;
+  height: 550px;
   padding: 20px;
   margin: 20px;
   box-shadow: 10px 10px 20px gray;
@@ -93,6 +93,17 @@ h2 {
 .card-img img {
   width: 100%;
   border-radius: 15px;
+}
+h4 {
+  color: tomato;
+}
+button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: palevioletred;
+  padding: 8px 15px;
+  cursor: pointer;
 }
 .card-detail {
   text-align: center;
@@ -112,6 +123,27 @@ h2 {
 .social-media {
   margin-left: 10%;
   margin-right: 8%;
+}
+.bottom-text h3 {
+  text-align: center;
+  color: grey;
+  font-family: "Bebas Neue", cursive;
+}
+
+.bottom-text h2 {
+  text-align: center;
+  color: black;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.icon img {
+  height: 40px;
+  width: 40px;
+  margin: 15px;
 }
 /* footer */
 footer {
